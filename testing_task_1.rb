@@ -10,7 +10,7 @@ class CardGame
   end
 
   dif highest_card(card1 card2)#typo (dif instead of def), no comma inside the brackets between card1 and card2)
-  if card1.value > card2.value
+  if card1.value > card2.value #the function isn't indented properly
     return card #typo, should be card1
   else
     return card2
@@ -18,7 +18,7 @@ class CardGame
 end
 end #extra end added
 
-def self.cards_total(cards)
+def self.cards_total(cards) #the function isnt indented properly
   total #total has been given no defined value
   for card in cards
     total += card.value #needs an end to finish the for loop
